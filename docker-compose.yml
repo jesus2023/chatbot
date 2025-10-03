@@ -8,12 +8,22 @@ services:
       - .:/app
       - /app/node_modules
     environment:
-      - NODE_ENV=development
-      - DB_HOST=postgres
-      - DB_PORT=5432
-      - DB_USER=botuser
-      - DB_PASS=botpass
-      - DB_NAME=botdb
+      NODE_ENV: ${NODE_ENV}
+      # PostgreSQL
+      DB_HOST: ${DB_HOST}
+      DB_PORT: ${DB_PORT}
+      DB_USER: ${DB_USER}
+      DB_PASS: ${DB_PASS}
+      DB_NAME: ${DB_NAME}
+      # MySQL
+      MYSQL_HOST: ${MYSQL_HOST}
+      MYSQL_PORT: ${MYSQL_PORT}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASS: ${MYSQL_PASS}
+      MYSQL_DB: ${MYSQL_DB}
+      # Outlook SMTP
+      OUTLOOK_USER: ${OUTLOOK_USER}
+      OUTLOOK_PASS: ${OUTLOOK_PASS}
     depends_on:
       - postgres
     command: npm start
@@ -23,9 +33,9 @@ services:
     image: postgres:16
     restart: always
     environment:
-      POSTGRES_USER: botuser
-      POSTGRES_PASSWORD: botpass
-      POSTGRES_DB: botdb
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
     ports:
       - "5432:5432"
     volumes:
