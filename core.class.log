@@ -1,12 +1,12 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '573115816817@s.whatsapp.net',
+    remoteJid: '573217048923@s.whatsapp.net',
     fromMe: false,
-    id: '3EB081CBDB4571334E0712',
+    id: '3EB03F1D4FD16886F346EB',
     participant: undefined
   },
-  messageTimestamp: 1759855629,
-  pushName: 'Reomir',
+  messageTimestamp: 1759867074,
+  pushName: 'Jhon Hernández',
   broadcast: false,
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
@@ -21,11 +21,11 @@
     }
   },
   body: 'hola',
-  from: '573115816817'
+  from: '573217048923'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_63f38ee3-420c-4821-8fa8-81015172b449',
-  keyword: 'key_13277426-3d47-4d87-a6ac-1d6e200a98d2',
+  ref: 'ans_4b19a443-af89-4990-9bff-005a86cbe087',
+  keyword: 'key_5419263b-475f-4da9-a182-f158fd9c5ad4',
   answer: '🙌 Hola, bienvenido a este *Chatbot*',
   options: {
     media: null,
@@ -39,11 +39,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'b138b3f9aa12af92287590fc639e19ad'
+  refSerialize: 'd0bc58b092cd6574daf2bfcbc37d2f9f'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_d51f6e11-bd93-4c80-8380-007d9e8721f8',
-  keyword: 'ans_63f38ee3-420c-4821-8fa8-81015172b449',
+  ref: 'ans_524583fd-9c2a-45aa-8f2e-14c0676088a8',
+  keyword: 'ans_4b19a443-af89-4990-9bff-005a86cbe087',
   answer: '📌 *Menú principal:*\n' +
     '\n' +
     '1. Resultados de chance y loterías\n' +
@@ -56,30 +56,39 @@
   options: {
     media: null,
     buttons: [],
-    capture: true,
+    capture: false,
     child: null,
     delay: 0,
     idle: null,
     ref: null,
-    nested: [],
+    nested: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ],
     keyword: {},
-    callback: true
+    callback: false
   },
-  refSerialize: '9b2a2aa532c5c2c18ebb006bcca3dfa4'
+  refSerialize: '3f3a414e1cff282306d7b0543ac3ec4a'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573115816817@s.whatsapp.net',
+    remoteJid: '573217048923@s.whatsapp.net',
     fromMe: false,
-    id: '3EB09B7471571CB94A92C7',
+    id: '3EB08D41FFEB4047373A75',
     participant: undefined
   },
-  messageTimestamp: 1759855635,
-  pushName: 'Reomir',
+  messageTimestamp: 1759867077,
+  pushName: 'Jhon Hernández',
   broadcast: false,
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
-      text: '3',
+      text: '5',
       contextInfo: [ContextInfo],
       inviteLinkGroupTypeV2: 0
     },
@@ -89,18 +98,59 @@
       messageSecret: [Uint8Array]
     }
   },
-  body: '3',
-  from: '573115816817'
+  body: '5',
+  from: '573217048923'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_1ce70dc6-f9c1-4de6-b8c8-c484d0e1f673',
+  answer: '📝 *Para empezar con tu PQRS*  \n' +
+    '\n' +
+    'Debes saber que tus datos personales recolectados serán tratados bajo estricta confidencialidad, conforme a nuestra política de privacidad de datos.  \n' +
+    '\n' +
+    'Puedes conocerla aquí:  \n' +
+    'https://record.com.co/wp-content/uploads/2018/06/POLITICA-DE-PROTECION-DE-DATOS-PERSONALES-RECORD-S.A.-1.1.docx-OK.pdf',
+  keyword: 'key_d07f9818-bb27-43a8-82eb-92511b31e3a1',
+  options: {
+    ref: null,
+    idle: null,
+    child: null,
+    delay: 0,
+    media: null,
+    nested: [],
+    buttons: [],
+    capture: false,
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '3f3f820e34a17a3fd87c1073f5070037'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_d86687a3-896b-4025-aaf1-e202295a2b04',
+  answer: '¿Aceptas nuestra politica de datos?\n1️⃣ Sí\n2️⃣ No',
+  keyword: 'ans_1ce70dc6-f9c1-4de6-b8c8-c484d0e1f673',
+  options: {
+    ref: null,
+    idle: null,
+    child: null,
+    delay: 0,
+    media: null,
+    nested: [],
+    buttons: [],
+    capture: true,
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'a3f1b932cefab9eb396972134cb5eea3'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573115816817@s.whatsapp.net',
+    remoteJid: '573217048923@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0F1A0A8E4F360C48F08',
+    id: '3EB09EFA03B29EE352C6A9',
     participant: undefined
   },
-  messageTimestamp: 1759855640,
-  pushName: 'Reomir',
+  messageTimestamp: 1759867079,
+  pushName: 'Jhon Hernández',
   broadcast: false,
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
@@ -115,35 +165,42 @@
     }
   },
   body: '2',
-  from: '573115816817'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_9d700b8a-3ce9-4cad-82c6-d23bd8c41a09',
-  keyword: 'ans_b56b6e4f-e1ee-44ae-b8d5-de21d0c583ed',
-  answer: '¿Te puedo ayudar en algo más?\n1️⃣ Sí\n2️⃣ No',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'b16ceb0a4efa809a65ebb653fe172498'
+  from: '573217048923'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573115816817@s.whatsapp.net',
+    remoteJid: '573217048923@s.whatsapp.net',
     fromMe: false,
-    id: '3EB03CA2C5C93CF67BE3F4',
+    id: '3EB0052D1F0DD620C3597C',
     participant: undefined
   },
-  messageTimestamp: 1759855644,
-  pushName: 'Reomir',
+  messageTimestamp: 1759867085,
+  pushName: 'Jhon Hernández',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '2',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '2',
+  from: '573217048923'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573217048923@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB04BF4C72EFD97C85FD4',
+    participant: undefined
+  },
+  messageTimestamp: 1759867091,
+  pushName: 'Jhon Hernández',
   broadcast: false,
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
@@ -158,21 +215,21 @@
     }
   },
   body: '1',
-  from: '573115816817'
+  from: '573217048923'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573115816817@s.whatsapp.net',
+    remoteJid: '573217048923@s.whatsapp.net',
     fromMe: false,
-    id: '3EB03A863BE9D3192F0D35',
+    id: '3EB0AA291186856227E4AE',
     participant: undefined
   },
-  messageTimestamp: 1759855649,
-  pushName: 'Reomir',
+  messageTimestamp: 1759867095,
+  pushName: 'Jhon Hernández',
   broadcast: false,
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
-      text: '2',
+      text: 'hola',
       contextInfo: [ContextInfo],
       inviteLinkGroupTypeV2: 0
     },
@@ -182,24 +239,59 @@
       messageSecret: [Uint8Array]
     }
   },
-  body: '2',
-  from: '573115816817'
+  body: 'hola',
+  from: '573217048923'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_254cd2dc-46e0-47f2-902d-5a0fd237cbb4',
-  keyword: 'ans_c742894c-2965-43a7-a2ac-2a8c9382bfe4',
-  answer: '¿Te puedo ayudar en algo más?\n1️⃣ Volver al inicio\n2️⃣ Finalizar chat',
+  ref: 'ans_4b19a443-af89-4990-9bff-005a86cbe087',
+  keyword: 'key_5419263b-475f-4da9-a182-f158fd9c5ad4',
+  answer: '🙌 Hola, bienvenido a este *Chatbot*',
   options: {
     media: null,
     buttons: [],
-    capture: true,
+    capture: false,
     child: null,
     delay: 0,
     idle: null,
     ref: null,
     nested: [],
     keyword: {},
-    callback: true
+    callback: false
   },
-  refSerialize: 'b981e334d6ad55839cebfd1adb73b87a'
+  refSerialize: 'd0bc58b092cd6574daf2bfcbc37d2f9f'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_524583fd-9c2a-45aa-8f2e-14c0676088a8',
+  keyword: 'ans_4b19a443-af89-4990-9bff-005a86cbe087',
+  answer: '📌 *Menú principal:*\n' +
+    '\n' +
+    '1. Resultados de chance y loterías\n' +
+    '2. Horario de atención puntos de venta\n' +
+    '3. Conocer productos y servicios\n' +
+    '4. Tarifas de giros nacional e internacionales\n' +
+    '5. Presentar una PQRS\n' +
+    '6. Trabaja con nosotros\n' +
+    '7. Otros',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '3f3a414e1cff282306d7b0543ac3ec4a'
 }

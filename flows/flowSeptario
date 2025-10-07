@@ -1,0 +1,12 @@
+const { addKeyword } = require('@bot-whatsapp/bot');
+
+const flowSeptario = addKeyword(['7', 'septario'])
+  .addAnswer(
+    `Perfecto, un asesor se comunicará contigo muy pronto para resolver tu inquietud.`
+  )
+  .addAnswer('', null, async (_, { gotoFlow }) => {
+    const flowGracias = require('./flowGracias');
+    return gotoFlow(flowGracias);
+  });
+
+module.exports = flowSeptario;
