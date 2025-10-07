@@ -1,207 +1,11 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '573006661715@s.whatsapp.net',
-    fromMe: false,
-    id: 'AC7E4B30DD7853AEB05DD73963686734',
-    participant: undefined
-  },
-  messageTimestamp: 1759848720,
-  pushName: 'Katherin Gutierrez',
-  broadcast: false,
-  message: Message {
-    conversation: 'Ccabal192002@',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'Ccabal192002@',
-  from: '573006661715'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573196604573@s.whatsapp.net',
-    fromMe: false,
-    id: 'AC05EAE4C90393DDC49665CC8948E595',
-    participant: undefined
-  },
-  messageTimestamp: 1759849005,
-  pushName: 'Katty S.',
-  broadcast: false,
-  message: Message {
-    conversation: 'Buenos dias',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'Buenos dias',
-  from: '573196604573'
-}
-[handleMsg]:  {
-  key: {
     remoteJid: '573115816817@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0A3E6D85C24C743B1B0',
+    id: '3EB081CBDB4571334E0712',
     participant: undefined
   },
-  messageTimestamp: 1759849362,
-  pushName: 'Reomir',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'Hola',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'Hola',
-  from: '573115816817'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_ebf682c4-dbad-4f51-a2d6-7161192763d4',
-  keyword: 'key_8d41aa14-fd5a-47fc-8755-1ddd8edf41dc',
-  answer: '🙌 Hola, bienvenido a este *Chatbot*',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'bfef8e9116840bc45efe4e16f559bcbd'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_36da75d0-9122-40dd-9f0b-4892c57a4d82',
-  keyword: 'ans_ebf682c4-dbad-4f51-a2d6-7161192763d4',
-  answer: '📌 *Menú principal:*\n' +
-    '\n' +
-    '1. Resultados de chance y loterías\n' +
-    '2. Horario de atención puntos de venta\n' +
-    '3. Conocer productos y servicios\n' +
-    '4. Tarifas de giros nacional e internacionales\n' +
-    '5. Presentar una PQRS\n' +
-    '6. Trabaja con nosotros\n' +
-    '7. Otros',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object]
-    ],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '28c983eaf060bf57c2b0b5fd37e78cef'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573115816817@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0F0852CA8FD0B55F928',
-    participant: undefined
-  },
-  messageTimestamp: 1759849367,
-  pushName: 'Reomir',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: '3',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: '3',
-  from: '573115816817'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_bf42e1ce-964e-4454-9edb-3363dabbc361',
-  answer: '📋 Te presentamos nuestros productos y servicios:\n' +
-    '\n' +
-    '1️⃣ Chance y otras apuestas  \n' +
-    '2️⃣ Betplay  \n' +
-    '3️⃣ Giros nacionales e internacionales  \n' +
-    '4️⃣ Recaudos y pagos  \n' +
-    '5️⃣ Loterías físicas, en línea y raspa y listo  \n' +
-    '6️⃣ SOAT  \n' +
-    '7️⃣ Recargas\n' +
-    '\n' +
-    'Por favor ingresa el número de la opción que deseas conocer más.',
-  keyword: 'key_e6c4b7aa-6b53-4cfe-b78c-e0956ac52744',
-  options: {
-    ref: null,
-    idle: null,
-    child: null,
-    delay: 0,
-    media: null,
-    nested: [],
-    buttons: [],
-    capture: true,
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'b17f344e7fa3557a156841374f457db7'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573115816817@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB071210F84B894CD5F8B',
-    participant: undefined
-  },
-  messageTimestamp: 1759849371,
-  pushName: 'Reomir',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: '2',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: '2',
-  from: '573115816817'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573115816817@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0314CBA88D590E8EFF7',
-    participant: undefined
-  },
-  messageTimestamp: 1759849765,
+  messageTimestamp: 1759855629,
   pushName: 'Reomir',
   broadcast: false,
   message: Message {
@@ -220,8 +24,8 @@
   from: '573115816817'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_ebf682c4-dbad-4f51-a2d6-7161192763d4',
-  keyword: 'key_8d41aa14-fd5a-47fc-8755-1ddd8edf41dc',
+  ref: 'ans_63f38ee3-420c-4821-8fa8-81015172b449',
+  keyword: 'key_13277426-3d47-4d87-a6ac-1d6e200a98d2',
   answer: '🙌 Hola, bienvenido a este *Chatbot*',
   options: {
     media: null,
@@ -235,11 +39,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'bfef8e9116840bc45efe4e16f559bcbd'
+  refSerialize: 'b138b3f9aa12af92287590fc639e19ad'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_36da75d0-9122-40dd-9f0b-4892c57a4d82',
-  keyword: 'ans_ebf682c4-dbad-4f51-a2d6-7161192763d4',
+  ref: 'ans_d51f6e11-bd93-4c80-8380-007d9e8721f8',
+  keyword: 'ans_63f38ee3-420c-4821-8fa8-81015172b449',
   answer: '📌 *Menú principal:*\n' +
     '\n' +
     '1. Resultados de chance y loterías\n' +
@@ -252,21 +56,150 @@
   options: {
     media: null,
     buttons: [],
-    capture: false,
+    capture: true,
     child: null,
     delay: 0,
     idle: null,
     ref: null,
-    nested: [
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object]
-    ],
+    nested: [],
     keyword: {},
-    callback: false
+    callback: true
   },
-  refSerialize: '28c983eaf060bf57c2b0b5fd37e78cef'
+  refSerialize: '9b2a2aa532c5c2c18ebb006bcca3dfa4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573115816817@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB09B7471571CB94A92C7',
+    participant: undefined
+  },
+  messageTimestamp: 1759855635,
+  pushName: 'Reomir',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '3',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '3',
+  from: '573115816817'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573115816817@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0F1A0A8E4F360C48F08',
+    participant: undefined
+  },
+  messageTimestamp: 1759855640,
+  pushName: 'Reomir',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '2',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '2',
+  from: '573115816817'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_9d700b8a-3ce9-4cad-82c6-d23bd8c41a09',
+  keyword: 'ans_b56b6e4f-e1ee-44ae-b8d5-de21d0c583ed',
+  answer: '¿Te puedo ayudar en algo más?\n1️⃣ Sí\n2️⃣ No',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'b16ceb0a4efa809a65ebb653fe172498'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573115816817@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB03CA2C5C93CF67BE3F4',
+    participant: undefined
+  },
+  messageTimestamp: 1759855644,
+  pushName: 'Reomir',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '1',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '1',
+  from: '573115816817'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573115816817@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB03A863BE9D3192F0D35',
+    participant: undefined
+  },
+  messageTimestamp: 1759855649,
+  pushName: 'Reomir',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '2',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '2',
+  from: '573115816817'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_254cd2dc-46e0-47f2-902d-5a0fd237cbb4',
+  keyword: 'ans_c742894c-2965-43a7-a2ac-2a8c9382bfe4',
+  answer: '¿Te puedo ayudar en algo más?\n1️⃣ Volver al inicio\n2️⃣ Finalizar chat',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'b981e334d6ad55839cebfd1adb73b87a'
 }

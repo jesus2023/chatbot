@@ -10,7 +10,7 @@ const flowApuestas = addKeyword(['apuestas', 'apostar', 'loterías', 'loteria'])
     '4️⃣ ¿Dónde puedo cobrar mi premio?\n\n' +
     'Por favor, responde con el número de la opción que desees consultar.',
     { capture: true },
-    async (ctx, { flowDynamic, gotoFlow, fallBack, endFlow }) => {
+    async (ctx, { flowDynamic, gotoFlow, fallBack}) => {
       const opcion = ctx.body.trim();
 
       switch (opcion) {

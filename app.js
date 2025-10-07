@@ -18,9 +18,9 @@ const flowSecundario = require('./flows/flowSecundario');
 const flowGracias = require('./flows/flowGracias');
 const flowInformacionGeneral = require('./flows/flowInformacionGeneral')
 const flowPremios = require('./flows/flowPremios')
-const flowTercerario = require('./flows/flowTercerario')
+const flowTercerario = require('./flows/flowTercerario');
+const flowApuestas = require('./flows/flowApuestas');
 
-// Flujo principal
 const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
   .addAnswer('🙌 Hola, bienvenido a este *Chatbot*')
   .addAnswer(
@@ -32,9 +32,34 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
     '5. Presentar una PQRS\n' +
     '6. Trabaja con nosotros\n' +
     '7. Otros',
-    null,
-    null,
-    [flowGracias, flowSecundario, flowTercerario, flowResultados]
+    { capture: true },
+    async (ctx, { gotoFlow, flowDynamic, fallBack }) => {
+      const opcion = ctx.body.trim();
+
+      switch(opcion) {
+        case '1':
+          return gotoFlow(flowResultados); // va a resultados
+        case '2':
+          return gotoFlow(flowSecundario); // va a flujo secundario
+        case '3':
+          return gotoFlow(flowTercerario); // va a flujo terciario
+        case '4':
+          await flowDynamic('💰 Tarifas de giros nacionales e internacionales:\n...'); 
+          return fallBack();
+        case '5':
+          await flowDynamic('📬 Para presentar una PQRS, por favor visita nuestra página o contacta soporte...');
+          return fallBack();
+        case '6':
+          await flowDynamic('💼 Para trabajar con nosotros, ingresa a nuestra sección de empleo en el portal web...');
+          return fallBack();
+        case '7':
+          await flowDynamic('🔎 Otros servicios y consultas, por favor contáctanos directamente.');
+          return fallBack();
+        default:
+          await flowDynamic('❌ Opción no válida. Responde con un número del 1 al 7.');
+          return fallBack();
+      }
+    }
   );
 
 // Función principal para iniciar el bot
@@ -50,7 +75,7 @@ const main = async () => {
   });
 
   // Creamos el flujo principal junto con los hijos
-  const adapterFlow = createFlow([flowPrincipal, flowResultadosAnteriores, flowEnviarCorreo, flowGracias, flowInformacionGeneral, flowPremios]);
+  const adapterFlow = createFlow([flowPrincipal, flowResultadosAnteriores, flowEnviarCorreo, flowGracias, flowInformacionGeneral, flowPremios, flowApuestas, flowTercerario]);
 
   // Proveedor de WhatsApp
   const adapterProvider = createProvider(BaileysProvider);
