@@ -34,22 +34,47 @@ const flowPreguntasPqrs = require('./flows/flowPreguntasPqrs')
 const flowContactoTelefonico = require('./flows/flowContactoTelefonico')
 const flowSextario = require('./flows/flowSextario')
 const flowSeptario = require('./flows/flowSeptario')
+const flowFallback =require('./flows/flowFallback')
+const flowResultadosConfirmacion = require('./flows/flowResultadosConfirmacion')
 
-const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
+const flowPrincipal = addKeyword(['hola', 'buenas', 'buenos'])
   .addAnswer('🙌 Hola, bienvenido a este *Chatbot*')
   .addAnswer(
-     '📌 *Menú principal:*\n\n' +
-    '1. Resultados de chance y loterías\n' +
-    '2. Horario de atención puntos de venta\n' +
-    '3. Conocer productos y servicios\n' +
-    '4. Tarifas de giros nacional e internacionales\n' +
-    '5. Presentar una PQRS\n' +
-    '6. Trabaja con nosotros\n' +
-    '7. Otros',
-    null,
-    null,
-    [flowResultados, flowSecundario, flowTercerario, flowCuaternario, flowQuintario, flowSextario, flowSeptario, flowGracias]
+    '📌 *Menú principal:*\n\n' +
+      '1️⃣ Resultados de chance y loterías\n' +
+      '2️⃣ Horario de atención puntos de venta\n' +
+      '3️⃣ Conocer productos y servicios\n' +
+      '4️⃣ Tarifas de giros nacional e internacionales\n' +
+      '5️⃣ Presentar una PQRS\n' +
+      '6️⃣ Trabaja con nosotros\n' +
+      '7️⃣ Otros\n\n' +
+      'Por favor, escribe el número de la opción que deseas:',
+    { capture: true },
+    async (ctx, { flowDynamic, fallBack }) => {
+      const respuesta = ctx.body.trim();
+
+      // Validar que el usuario haya escrito un número entre 1 y 7
+      if (!/^[1-7]$/.test(respuesta)) {
+        await flowDynamic('⚠️ Por favor selecciona una opción válida (1 al 7).');
+        return fallBack();
+      }
+
+      // Si es válido, continúa normalmente (irá al flujo correspondiente)
+      return;
+    },
+    [
+      flowResultados,
+      flowSecundario,
+      flowTercerario,
+      flowCuaternario,
+      flowQuintario,
+      flowSextario,
+      flowSeptario,
+      flowGracias,
+    ]
   );
+
+module.exports = flowPrincipal;
 
 // Función principal para iniciar el bot
 const main = async () => {
@@ -81,7 +106,9 @@ const main = async () => {
     flowTercerario7,
     flowGiros,
     flowPreguntasPqrs,
-    flowContactoTelefonico
+    flowContactoTelefonico,
+    flowFallback,
+    flowResultadosConfirmacion
   ]);
 
   // Proveedor de WhatsApp

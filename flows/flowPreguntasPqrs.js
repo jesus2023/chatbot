@@ -1,6 +1,6 @@
 const { addKeyword } = require('@bot-whatsapp/bot');
 
-const flowPreguntasPqrs = addKeyword(['4.1'])
+const flowPreguntasPqrs = addKeyword(['cuatariouno'])
   .addAnswer(
     `❓ Estas son algunas preguntas frecuentes sobre el proceso de PQRS:\n
 1️⃣ ¿Puedo enviar una PQRS de forma anónima?\n
@@ -9,9 +9,10 @@ const flowPreguntasPqrs = addKeyword(['4.1'])
 4️⃣ ¿Dónde puedo consultar el estado de mi PQRS?\n
 \n
 Por favor, escribe el número de la pregunta que deseas conocer.`,
-    { capture: true }, // 👈 Esto indica que debe esperar la respuesta del usuario
-    async (ctx, { flowDynamic, gotoFlow }) => {
+    { capture: true },
+    async (ctx, { flowDynamic, gotoFlow, fallBack }) => {
       const respuesta = ctx.body.trim();
+      let esValido = true;
 
       switch (respuesta) {
         case '1':
@@ -47,15 +48,18 @@ Por favor, escribe el número de la pregunta que deseas conocer.`,
           break;
 
         default:
+          esValido = false;
           await flowDynamic([
-            { body: 'Por favor selecciona una opción válida (1, 2, 3 o 4).' }
+            { body: '❌ Por favor selecciona una opción válida (1, 2, 3 o 4).' }
           ]);
-          return;
+          return fallBack(); // 👈 se mantiene en el flujo actual
       }
 
-      // 👇 Solo después de responder correctamente, redirige al flujo de gracias
-      const flowGracias = require('./flowGracias');
-      return gotoFlow(flowGracias);
+      // 👇 Solo si fue válido, pasa al flujo de confirmación
+      if (esValido) {
+        const flowResultadosConfirmacion = require('./flowResultadosConfirmacion');
+        return gotoFlow(flowResultadosConfirmacion);
+      }
     }
   );
 

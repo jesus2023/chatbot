@@ -1,6 +1,6 @@
 const { addKeyword } = require('@bot-whatsapp/bot');
 
-const flowContactoTelefonico = addKeyword(['4.2'])
+const flowContactoTelefonico = addKeyword(['cuarteariodos'])
   .addAnswer(
     "📞 *Líneas de atención al cliente*\n\nTe invitamos a comunicarte a nuestras líneas de atención telefónica: *(604) 7890042 ext 222*, en horarios de oficina."
   )
