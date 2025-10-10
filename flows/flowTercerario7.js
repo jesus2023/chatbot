@@ -4,7 +4,33 @@ const flowTercerario7 = addKeyword(['terceariosiete'])
   .addAnswer(
     `📱 *Recargas y pines de entretenimiento*
 
-Recargas y paquetes para varias operadoras y pines de entretenimiento.`
+En nuestros puntos de venta puedes hacer recargas y comprar paquetes para los siguientes operadores:
+
+🔹 Claro
+🔹 Tigo
+🔹 Movistar
+🔹 WOM
+🔹 Virgin Mobile
+🔹 Móvil Éxito
+🔹 Móviles 4G ETB
+🔹 Kalley Móvil
+
+🎮 Además, puedes adquirir pines de entretenimiento para tus plataformas favoritas:
+
+🔹 Netflix
+🔹 Office
+🔹 PlayStation
+🔹 IMVU
+🔹 Rixty
+🔹 Xbox
+🔹 Spotify
+🔹 Kaspersky
+🔹 Free Fire
+🔹 Paramount+
+🔹 Crunchyroll
+🔹 ViX
+🔹 Roblox
+🔹 McAfee`
   )
   .addAnswer(
     "¿Te puedo ayudar en algo más?\n1️⃣ Sí\n2️⃣ No",

@@ -1,317 +1,12 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '573217048923@s.whatsapp.net',
+    remoteJid: '573115816817@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0A644C3853C617FC5F5',
+    id: 'AC230C095F107202A1F9B50A3A25AD23',
     participant: undefined
   },
-  messageTimestamp: 1759932807,
-  pushName: 'Jhon Hernández',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'hola',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'hola',
-  from: '573217048923'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_b318c97d-1a2b-4c40-a03a-eac5de1f922d',
-  keyword: 'key_79a10c44-42c0-44cd-8c28-cf569c3eca79',
-  answer: '🙌 Hola, bienvenido a este *Chatbot*',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'c851c52cb55196f98b6181c2089b64a5'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_2d6a6059-6726-440b-9175-5367a43c4d83',
-  keyword: 'ans_b318c97d-1a2b-4c40-a03a-eac5de1f922d',
-  answer: '📌 *Menú principal:*\n' +
-    '\n' +
-    '1️⃣ Resultados de chance y loterías\n' +
-    '2️⃣ Horario de atención puntos de venta\n' +
-    '3️⃣ Conocer productos y servicios\n' +
-    '4️⃣ Tarifas de giros nacional e internacionales\n' +
-    '5️⃣ Presentar una PQRS\n' +
-    '6️⃣ Trabaja con nosotros\n' +
-    '7️⃣ Otros\n' +
-    '\n' +
-    'Por favor, escribe el número de la opción que deseas:',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object]
-    ],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '61a9ec7e6b376ba65d846ea129e3403e'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573008473601@s.whatsapp.net',
-    fromMe: false,
-    id: 'AC0B838EE9A30ACFE553D5D2B565F973',
-    participant: undefined
-  },
-  messageTimestamp: 1759932809,
-  pushName: '.',
-  broadcast: false,
-  message: Message {
-    conversation: 'Dímelo matatan',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'Dímelo matatan',
-  from: '573008473601'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573217048923@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB030623A658BC7A557F3',
-    participant: undefined
-  },
-  messageTimestamp: 1759932811,
-  pushName: 'Jhon Hernández',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: '5',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: '5',
-  from: '573217048923'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_6dd1b77a-2069-44ef-a349-9c84961e7d4e',
-  answer: '📝 *Para empezar con tu PQRS*  \n' +
-    '\n' +
-    'Debes saber que tus datos personales recolectados serán tratados bajo estricta confidencialidad, conforme a nuestra política de privacidad de datos.  \n' +
-    '\n' +
-    'Puedes conocerla aquí:  \n' +
-    'https://record.com.co/wp-content/uploads/2018/06/POLITICA-DE-PROTECION-DE-DATOS-PERSONALES-RECORD-S.A.-1.1.docx-OK.pdf',
-  keyword: 'key_727fa798-f5e6-4c19-860f-c21b5e3de9c2',
-  options: {
-    ref: null,
-    idle: null,
-    child: null,
-    delay: 0,
-    media: null,
-    nested: [],
-    buttons: [],
-    capture: false,
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '343c8fc8900fd89e05ab1037f9c2b25c'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_96b2cc30-ee21-45ba-ac4e-55d7edf6ec17',
-  answer: '¿Aceptas nuestra politica de datos?\n1️⃣ Sí\n2️⃣ No',
-  keyword: 'ans_6dd1b77a-2069-44ef-a349-9c84961e7d4e',
-  options: {
-    ref: null,
-    idle: null,
-    child: null,
-    delay: 0,
-    media: null,
-    nested: [],
-    buttons: [],
-    capture: true,
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '79ca72893da688701ec166e4976c7847'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573217048923@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB00BB31C1356CCDFE006',
-    participant: undefined
-  },
-  messageTimestamp: 1759932816,
-  pushName: 'Jhon Hernández',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: '1',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: '1',
-  from: '573217048923'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573217048923@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0E9C45B3446AB280919',
-    participant: undefined
-  },
-  messageTimestamp: 1759932839,
-  pushName: 'Jhon Hernández',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'Buenaventura,122,jhh',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'Buenaventura,122,jhh',
-  from: '573217048923'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_f9643e7f-a176-4c06-bf0b-15775e3eae0a',
-  keyword: 'ans_5e303967-0033-4a0c-a1ec-6c3652dc7bb6',
-  answer: '📧 Ingresa tu correo electrónico:',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'b48764a28c9973c78b41570afb456996'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573008473601@s.whatsapp.net',
-    fromMe: false,
-    id: 'ACCAB0E86F23BF1700EB31E5176C5F54',
-    participant: undefined
-  },
-  messageTimestamp: 1759932852,
-  pushName: '.',
-  broadcast: false,
-  message: Message {
-    conversation: 'Dímelo mata tan',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'Dímelo mata tan',
-  from: '573008473601'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573217048923@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB04054B39568FA1577CE',
-    participant: undefined
-  },
-  messageTimestamp: 1759932854,
-  pushName: 'Jhon Hernández',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'gracias',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'gracias',
-  from: '573217048923'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573217048923@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0F48B7DBC254B0A062A',
-    participant: undefined
-  },
-  messageTimestamp: 1759932860,
-  pushName: 'Jhon Hernández',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'buenas',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'buenas',
-  from: '573217048923'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573008473601@s.whatsapp.net',
-    fromMe: false,
-    id: 'ACEF4B628650FF3AFA2CBCB4C8DD0990',
-    participant: undefined
-  },
-  messageTimestamp: 1759932862,
-  pushName: '.',
+  messageTimestamp: 1759960563,
+  pushName: 'Reomir',
   broadcast: false,
   message: Message {
     conversation: 'Hola',
@@ -322,12 +17,12 @@
     }
   },
   body: 'Hola',
-  from: '573008473601'
+  from: '573115816817'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_b318c97d-1a2b-4c40-a03a-eac5de1f922d',
-  keyword: 'key_79a10c44-42c0-44cd-8c28-cf569c3eca79',
-  answer: '🙌 Hola, bienvenido a este *Chatbot*',
+  ref: 'ans_9a2f14a7-33e0-490f-b280-fc8a054fed21',
+  keyword: 'key_6f7f0d5a-9011-4d99-9ee6-e33643f174e4',
+  answer: '¡Hola! Soy *Sara* 👩🏻, encantada de atenderte. A continuación, te presento una lista de opciones en las que puedo ayudarte:',
   options: {
     media: null,
     buttons: [],
@@ -340,11 +35,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'c851c52cb55196f98b6181c2089b64a5'
+  refSerialize: '3372ca5893586436a00f03164e2039dd'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_2d6a6059-6726-440b-9175-5367a43c4d83',
-  keyword: 'ans_b318c97d-1a2b-4c40-a03a-eac5de1f922d',
+  ref: 'ans_9396a0f2-f4c5-4220-ae2e-b8b0ad1fa686',
+  keyword: 'ans_9a2f14a7-33e0-490f-b280-fc8a054fed21',
   answer: '📌 *Menú principal:*\n' +
     '\n' +
     '1️⃣ Resultados de chance y loterías\n' +
@@ -376,41 +71,124 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '61a9ec7e6b376ba65d846ea129e3403e'
+  refSerialize: '682ce4f38cb06eb668ccbddc95de2f9a'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573217048923@s.whatsapp.net',
+    remoteJid: '573115816817@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0ECA99639D36CCA0C8C',
+    id: 'AC672042271A0F76F36F8DD6397F122F',
     participant: undefined
   },
-  messageTimestamp: 1759932868,
-  pushName: 'Jhon Hernández',
+  messageTimestamp: 1759960567,
+  pushName: 'Reomir',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'buenas',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
+    conversation: '3',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: 'buenas',
-  from: '573217048923'
+  body: '3',
+  from: '573115816817'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_eff1f31d-b6d3-48b8-8137-252a6bcb1e4f',
-  keyword: 'key_a53b7874-9fc3-4916-b43c-7714fd74f7f7',
-  answer: '¡Muy bien!\n' +
+  ref: 'ans_faa3ff8f-e280-4a11-b70d-1e03b34d127f',
+  answer: '📋 Te presentamos nuestros productos y servicios:\n' +
     '\n' +
-    'Si necesitas algo en el futuro, aquí estaré para ayudarte.\n' +
+    '1️⃣ Chance y otras apuestas  \n' +
+    '2️⃣ Betplay  \n' +
+    '3️⃣ Giros nacionales e internacionales  \n' +
+    '4️⃣ Recaudos y pagos  \n' +
+    '5️⃣ Loterías físicas, en línea y raspa y listo  \n' +
+    '6️⃣ SOAT  \n' +
+    '7️⃣ Recargas\n' +
     '\n' +
-    '¡Gracias por escribirnos! 🙌',
+    'Por favor ingresa el número de la opción que deseas conocer más.',
+  keyword: 'key_f354acbe-4fb7-4b2e-a8dd-792488b31a11',
+  options: {
+    ref: null,
+    idle: null,
+    child: null,
+    delay: 0,
+    media: null,
+    nested: [],
+    buttons: [],
+    capture: true,
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'a2962a8a428aab8e92414bd59ab42a73'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573115816817@s.whatsapp.net',
+    fromMe: false,
+    id: 'AC318EFB4CFCBC053826EC14943C87D2',
+    participant: undefined
+  },
+  messageTimestamp: 1759960571,
+  pushName: 'Reomir',
+  broadcast: false,
+  message: Message {
+    conversation: '7',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '7',
+  from: '573115816817'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573115816817@s.whatsapp.net',
+    fromMe: false,
+    id: 'AC44D9250CE86B764475940EE6D774C7',
+    participant: undefined
+  },
+  messageTimestamp: 1759960579,
+  pushName: 'Reomir',
+  broadcast: false,
+  message: Message {
+    conversation: 'No',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'No',
+  from: '573115816817'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573115816817@s.whatsapp.net',
+    fromMe: false,
+    id: 'AC694CC8E9016A9C8CFBA3FA24FA03F5',
+    participant: undefined
+  },
+  messageTimestamp: 1759960583,
+  pushName: 'Reomir',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola',
+  from: '573115816817'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_9a2f14a7-33e0-490f-b280-fc8a054fed21',
+  keyword: 'key_6f7f0d5a-9011-4d99-9ee6-e33643f174e4',
+  answer: '¡Hola! Soy *Sara* 👩🏻, encantada de atenderte. A continuación, te presento una lista de opciones en las que puedo ayudarte:',
   options: {
     media: null,
     buttons: [],
@@ -423,50 +201,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '2016316ec83e83b20f6b964333e37741'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573008473601@s.whatsapp.net',
-    fromMe: false,
-    id: 'AC7001198FC106C0C1E10156E52A6B55',
-    participant: undefined
-  },
-  messageTimestamp: 1759932868,
-  pushName: '.',
-  broadcast: false,
-  message: Message {
-    conversation: 'Buenos',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'Buenos',
-  from: '573008473601'
+  refSerialize: '3372ca5893586436a00f03164e2039dd'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_b13fd9e1-c1a3-4c78-bba1-ad2a85325250',
-  keyword: 'ans_f9643e7f-a176-4c06-bf0b-15775e3eae0a',
-  answer: '🤖 ¿Te puedo ayudar en algo más?\n\n1️⃣ Sí\n2️⃣ No',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'fb5b3f23993a3eea1a72fc4fd5efbc91'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_2d6a6059-6726-440b-9175-5367a43c4d83',
-  keyword: 'ans_b318c97d-1a2b-4c40-a03a-eac5de1f922d',
+  ref: 'ans_9396a0f2-f4c5-4220-ae2e-b8b0ad1fa686',
+  keyword: 'ans_9a2f14a7-33e0-490f-b280-fc8a054fed21',
   answer: '📌 *Menú principal:*\n' +
     '\n' +
     '1️⃣ Resultados de chance y loterías\n' +
@@ -498,132 +237,43 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '61a9ec7e6b376ba65d846ea129e3403e'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_b318c97d-1a2b-4c40-a03a-eac5de1f922d',
-  keyword: 'key_79a10c44-42c0-44cd-8c28-cf569c3eca79',
-  answer: '🙌 Hola, bienvenido a este *Chatbot*',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'c851c52cb55196f98b6181c2089b64a5'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_b318c97d-1a2b-4c40-a03a-eac5de1f922d',
-  keyword: 'key_79a10c44-42c0-44cd-8c28-cf569c3eca79',
-  answer: '🙌 Hola, bienvenido a este *Chatbot*',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'c851c52cb55196f98b6181c2089b64a5'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_2d6a6059-6726-440b-9175-5367a43c4d83',
-  keyword: 'ans_b318c97d-1a2b-4c40-a03a-eac5de1f922d',
-  answer: '📌 *Menú principal:*\n' +
-    '\n' +
-    '1️⃣ Resultados de chance y loterías\n' +
-    '2️⃣ Horario de atención puntos de venta\n' +
-    '3️⃣ Conocer productos y servicios\n' +
-    '4️⃣ Tarifas de giros nacional e internacionales\n' +
-    '5️⃣ Presentar una PQRS\n' +
-    '6️⃣ Trabaja con nosotros\n' +
-    '7️⃣ Otros\n' +
-    '\n' +
-    'Por favor, escribe el número de la opción que deseas:',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object]
-    ],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '61a9ec7e6b376ba65d846ea129e3403e'
+  refSerialize: '682ce4f38cb06eb668ccbddc95de2f9a'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573217048923@s.whatsapp.net',
+    remoteJid: '573115816817@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0069723C6F0C4EF23B7',
+    id: 'AC9C82381A9101BBD6617B715C131965',
     participant: undefined
   },
-  messageTimestamp: 1759932875,
-  pushName: 'Jhon Hernández',
+  messageTimestamp: 1759960587,
+  pushName: 'Reomir',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: '5',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
+    conversation: '3',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: '5',
-  from: '573217048923'
+  body: '3',
+  from: '573115816817'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_6dd1b77a-2069-44ef-a349-9c84961e7d4e',
-  answer: '📝 *Para empezar con tu PQRS*  \n' +
+  ref: 'ans_faa3ff8f-e280-4a11-b70d-1e03b34d127f',
+  answer: '📋 Te presentamos nuestros productos y servicios:\n' +
     '\n' +
-    'Debes saber que tus datos personales recolectados serán tratados bajo estricta confidencialidad, conforme a nuestra política de privacidad de datos.  \n' +
+    '1️⃣ Chance y otras apuestas  \n' +
+    '2️⃣ Betplay  \n' +
+    '3️⃣ Giros nacionales e internacionales  \n' +
+    '4️⃣ Recaudos y pagos  \n' +
+    '5️⃣ Loterías físicas, en línea y raspa y listo  \n' +
+    '6️⃣ SOAT  \n' +
+    '7️⃣ Recargas\n' +
     '\n' +
-    'Puedes conocerla aquí:  \n' +
-    'https://record.com.co/wp-content/uploads/2018/06/POLITICA-DE-PROTECION-DE-DATOS-PERSONALES-RECORD-S.A.-1.1.docx-OK.pdf',
-  keyword: 'key_727fa798-f5e6-4c19-860f-c21b5e3de9c2',
-  options: {
-    ref: null,
-    idle: null,
-    child: null,
-    delay: 0,
-    media: null,
-    nested: [],
-    buttons: [],
-    capture: false,
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '343c8fc8900fd89e05ab1037f9c2b25c'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_96b2cc30-ee21-45ba-ac4e-55d7edf6ec17',
-  answer: '¿Aceptas nuestra politica de datos?\n1️⃣ Sí\n2️⃣ No',
-  keyword: 'ans_6dd1b77a-2069-44ef-a349-9c84961e7d4e',
+    'Por favor ingresa el número de la opción que deseas conocer más.',
+  keyword: 'key_f354acbe-4fb7-4b2e-a8dd-792488b31a11',
   options: {
     ref: null,
     idle: null,
@@ -636,480 +286,47 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '79ca72893da688701ec166e4976c7847'
+  refSerialize: 'a2962a8a428aab8e92414bd59ab42a73'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573217048923@s.whatsapp.net',
+    remoteJid: '573115816817@s.whatsapp.net',
     fromMe: false,
-    id: '3EB06CC88CBBA6233053B1',
+    id: 'ACD1836C39E46118695FF285F85F7E6D',
     participant: undefined
   },
-  messageTimestamp: 1759932878,
-  pushName: 'Jhon Hernández',
+  messageTimestamp: 1759960594,
+  pushName: 'Reomir',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: '1',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
+    conversation: '4',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: '1',
-  from: '573217048923'
+  body: '4',
+  from: '573115816817'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '573217048923@s.whatsapp.net',
+    remoteJid: '573115816817@s.whatsapp.net',
     fromMe: false,
-    id: '3EB093EEA2FF49BE801BA0',
+    id: 'ACF2A55A4F94461B52A7DA46FE3069B6',
     participant: undefined
   },
-  messageTimestamp: 1759932884,
-  pushName: 'Jhon Hernández',
+  messageTimestamp: 1759960610,
+  pushName: 'Reomir',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'buenaventura,g,1',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
+    conversation: 'No',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: 'buenaventura,g,1',
-  from: '573217048923'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_f9643e7f-a176-4c06-bf0b-15775e3eae0a',
-  keyword: 'ans_5e303967-0033-4a0c-a1ec-6c3652dc7bb6',
-  answer: '📧 Ingresa tu correo electrónico:',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'b48764a28c9973c78b41570afb456996'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573217048923@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0C85F481E5879D48757',
-    participant: undefined
-  },
-  messageTimestamp: 1759932897,
-  pushName: 'Jhon Hernández',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'hasdhasd',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'hasdhasd',
-  from: '573217048923'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573217048923@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB05D90A75B42696F0698',
-    participant: undefined
-  },
-  messageTimestamp: 1759932902,
-  pushName: 'Jhon Hernández',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'gracias',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'gracias',
-  from: '573217048923'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573217048923@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0EB2834568C75768F6B',
-    participant: undefined
-  },
-  messageTimestamp: 1759932905,
-  pushName: 'Jhon Hernández',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'hola',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'hola',
-  from: '573217048923'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573217048923@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0E2E51D50024C8B08CC',
-    participant: undefined
-  },
-  messageTimestamp: 1759932913,
-  pushName: 'Jhon Hernández',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'hola',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'hola',
-  from: '573217048923'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_eff1f31d-b6d3-48b8-8137-252a6bcb1e4f',
-  keyword: 'key_a53b7874-9fc3-4916-b43c-7714fd74f7f7',
-  answer: '¡Muy bien!\n' +
-    '\n' +
-    'Si necesitas algo en el futuro, aquí estaré para ayudarte.\n' +
-    '\n' +
-    '¡Gracias por escribirnos! 🙌',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '2016316ec83e83b20f6b964333e37741'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_b13fd9e1-c1a3-4c78-bba1-ad2a85325250',
-  keyword: 'ans_f9643e7f-a176-4c06-bf0b-15775e3eae0a',
-  answer: '🤖 ¿Te puedo ayudar en algo más?\n\n1️⃣ Sí\n2️⃣ No',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'fb5b3f23993a3eea1a72fc4fd5efbc91'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_b318c97d-1a2b-4c40-a03a-eac5de1f922d',
-  keyword: 'key_79a10c44-42c0-44cd-8c28-cf569c3eca79',
-  answer: '🙌 Hola, bienvenido a este *Chatbot*',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'c851c52cb55196f98b6181c2089b64a5'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_b318c97d-1a2b-4c40-a03a-eac5de1f922d',
-  keyword: 'key_79a10c44-42c0-44cd-8c28-cf569c3eca79',
-  answer: '🙌 Hola, bienvenido a este *Chatbot*',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'c851c52cb55196f98b6181c2089b64a5'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_2d6a6059-6726-440b-9175-5367a43c4d83',
-  keyword: 'ans_b318c97d-1a2b-4c40-a03a-eac5de1f922d',
-  answer: '📌 *Menú principal:*\n' +
-    '\n' +
-    '1️⃣ Resultados de chance y loterías\n' +
-    '2️⃣ Horario de atención puntos de venta\n' +
-    '3️⃣ Conocer productos y servicios\n' +
-    '4️⃣ Tarifas de giros nacional e internacionales\n' +
-    '5️⃣ Presentar una PQRS\n' +
-    '6️⃣ Trabaja con nosotros\n' +
-    '7️⃣ Otros\n' +
-    '\n' +
-    'Por favor, escribe el número de la opción que deseas:',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object]
-    ],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '61a9ec7e6b376ba65d846ea129e3403e'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_2d6a6059-6726-440b-9175-5367a43c4d83',
-  keyword: 'ans_b318c97d-1a2b-4c40-a03a-eac5de1f922d',
-  answer: '📌 *Menú principal:*\n' +
-    '\n' +
-    '1️⃣ Resultados de chance y loterías\n' +
-    '2️⃣ Horario de atención puntos de venta\n' +
-    '3️⃣ Conocer productos y servicios\n' +
-    '4️⃣ Tarifas de giros nacional e internacionales\n' +
-    '5️⃣ Presentar una PQRS\n' +
-    '6️⃣ Trabaja con nosotros\n' +
-    '7️⃣ Otros\n' +
-    '\n' +
-    'Por favor, escribe el número de la opción que deseas:',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object], [Object],
-      [Object], [Object]
-    ],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '61a9ec7e6b376ba65d846ea129e3403e'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573217048923@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0BFC25F722B5EC04422',
-    participant: undefined
-  },
-  messageTimestamp: 1759932917,
-  pushName: 'Jhon Hernández',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: '5',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: '5',
-  from: '573217048923'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_6dd1b77a-2069-44ef-a349-9c84961e7d4e',
-  answer: '📝 *Para empezar con tu PQRS*  \n' +
-    '\n' +
-    'Debes saber que tus datos personales recolectados serán tratados bajo estricta confidencialidad, conforme a nuestra política de privacidad de datos.  \n' +
-    '\n' +
-    'Puedes conocerla aquí:  \n' +
-    'https://record.com.co/wp-content/uploads/2018/06/POLITICA-DE-PROTECION-DE-DATOS-PERSONALES-RECORD-S.A.-1.1.docx-OK.pdf',
-  keyword: 'key_727fa798-f5e6-4c19-860f-c21b5e3de9c2',
-  options: {
-    ref: null,
-    idle: null,
-    child: null,
-    delay: 0,
-    media: null,
-    nested: [],
-    buttons: [],
-    capture: false,
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '343c8fc8900fd89e05ab1037f9c2b25c'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_96b2cc30-ee21-45ba-ac4e-55d7edf6ec17',
-  answer: '¿Aceptas nuestra politica de datos?\n1️⃣ Sí\n2️⃣ No',
-  keyword: 'ans_6dd1b77a-2069-44ef-a349-9c84961e7d4e',
-  options: {
-    ref: null,
-    idle: null,
-    child: null,
-    delay: 0,
-    media: null,
-    nested: [],
-    buttons: [],
-    capture: true,
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '79ca72893da688701ec166e4976c7847'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573217048923@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB04A5A1071A5F0BEA54C',
-    participant: undefined
-  },
-  messageTimestamp: 1759932920,
-  pushName: 'Jhon Hernández',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: '1',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: '1',
-  from: '573217048923'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573217048923@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB033D8208BCE743E1D2F',
-    participant: undefined
-  },
-  messageTimestamp: 1759932932,
-  pushName: 'Jhon Hernández',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'buenasventura,dd,dd',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'buenasventura,dd,dd',
-  from: '573217048923'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_f9643e7f-a176-4c06-bf0b-15775e3eae0a',
-  keyword: 'ans_5e303967-0033-4a0c-a1ec-6c3652dc7bb6',
-  answer: '📧 Ingresa tu correo electrónico:',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'b48764a28c9973c78b41570afb456996'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573217048923@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB029D871B408732C759D',
-    participant: undefined
-  },
-  messageTimestamp: 1759932966,
-  pushName: 'Jhon Hernández',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'ddd@gmail.com',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'ddd@gmail.com',
-  from: '573217048923'
+  body: 'No',
+  from: '573115816817'
 }

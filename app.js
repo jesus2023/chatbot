@@ -38,7 +38,7 @@ const flowFallback =require('./flows/flowFallback')
 const flowResultadosConfirmacion = require('./flows/flowResultadosConfirmacion')
 
 const flowPrincipal = addKeyword(['hola', 'buenas', 'buenos'])
-  .addAnswer('🙌 Hola, bienvenido a este *Chatbot*')
+  .addAnswer('¡Hola! Soy *Sara* 👩🏻, encantada de atenderte. A continuación, te presento una lista de opciones en las que puedo ayudarte:')
   .addAnswer(
     '📌 *Menú principal:*\n\n' +
       '1️⃣ Resultados de chance y loterías\n' +
